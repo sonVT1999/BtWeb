@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_layoutAdmin.cshtml";
+}
+
+@using HotelBooking.Models;
+@model RoomType
+
+
+<div class="right_col" role="main">
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>Sửa</h3>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="x_panel">
+            <div class="x_content">
+                <form method="post">
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="form-group col-md-6">
+                                <label>id</label>
+                                <input class="form-control" name="Id_Type" value="@Model.Id_Type"/>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>Name</label>
+                                <input class="form-control" name="Name" value="@Model.Name"/>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>Bed_Amount</label>
+                                <input class="form-control" name="Bed_Amount" value="@Model.Bed_Amount"/>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>Size</label>
+                                <input class="form-control" name="Size" value="@Model.Size"/>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>Adult_Amount</label>
+                                <input class="form-control" name="Adult_Amount" value="@Model.Adult_Amount"/>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>Children_Amount</label>
+                                <input class="form-control" name="Children_Amount" value="@Model.Children_Amount"/>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>Active</label><br />
+                                <input type="radio" name="gender" value="True" />Yes<br />
+                                <input type="radio" name="gender" value="False" />No
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>Note</label>
+                                <input class="form-control" name="Note" value="@Model.Note"/>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <button type="submit" class="btn btn-success">Save</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,142 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var Rooms = (List<HotelBooking.ViewModels.RoomViewModel>)ViewBag.Rooms;
+
+}
+
+@using HotelBooking.ViewModels;
+@using HotelBooking.Models;
+
+
+<title>Loai Phong</title>
+
+<!-- SLIDER -->
+<div id="outerafterheader">
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns" id="afterheader">
+                <h1 class="pagetitle">Loại Phòng</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="outermain">
+    <div id="maincontainer">
+        <div class="container">
+            <div class="row">
+                <section id="maincontent">
+                    <section id="content" class="eight columns positionleft">
+                        <div id="ts-portfolio">
+                            <div class="row ">
+                                @foreach (RoomViewModel item in Rooms)
+                                {
+
+                                    <div class="item one_half columns">
+                                        <div class="ts-pf-img">
+                                            <a class="pfzoom" href="~/home/previews/@item.MASP">
+                                                <img src="/Content/User/files/images/Room/@item.url/@item.imageLink"
+                                                     alt="@item.nameType">
+                                            </a>
+                                        </div>
+
+                                        <div class="ts-pf-text">
+                                            <h3 class="pftitle">
+                                                <a href="~/home/previews/@item.MASP">@item.nameType</a>
+                                            </h3>
+                                            <div class="textcontainer">
+                                                <strong>Giá: </strong>
+                                                <span style="color: red;">@item.price vnđ/nigh </span>
+                                                <br />
+                                                <div style="text-align: justify">
+                                                    <strong>Beds: </strong>@item.bedAmount<br />
+                                                    <strong>Max: </strong>@item.adultAmount Adults + @item.childAmount Child under 6<br />
+                                                    <strong>Size: </strong>@item.size m<sup>2</sup>
+                                                </div>
+
+                                            </div>
+                                            <div class="more-container">
+                                                <a href="~/home/previews/@item.MASP" class="more-link">Chi
+                                                    tiết
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="clear"></div>
+
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <aside id="sidebar" class="four columns positionright">
+                            <div class="widget-area">
+                                <ul>
+                                    <li id="text-3" class="widget-container widget_text">
+                                        <div class="wrap-mode-check">
+                                            <h3 class="widget-title">Đặt phòng khách sạn
+                                            </h3>
+                                            <div id="wrap-check-one">
+                                                <form method="post" action="~/home/Search" id="check-room">
+                                                    <div class="av-persion">
+                                                        <div class="av-item-pertion">
+
+                                                            <span>Người lớn:</span>
+                                                            <select id="av-adult" name="Adult">
+                                                                <option>1</option>
+                                                                <option>2</option>
+                                                                <option>3</option>
+                                                                <option>4</option>
+                                                                <option>5</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="av-item-pertion">
+                                                            <span>Trẻ em:</span>
+                                                            <select id="av-child" name="Child">
+                                                                <option>0</option>
+                                                                <option>1</option>
+                                                                <option>2</option>
+                                                                <option>3</option>
+                                                                <option>4</option>
+                                                                <option>5</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <input type="submit" id="av-buton"
+                                                        value="Tìm phòng trống" class="btn btn-primary"
+                                                        style="padding: 9px 20px; margin-top: 10px; width: 100%" />
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <style>
+                                            .av-check-time,
+                                            .av-persion,
+                                            .av-item-pertion {
+                                                margin-bottom: 8px;
+                                            }
+
+                                            #check-room span {
+                                                display: block;
+                                                width: 86px;
+                                                float: left;
+                                            }
+
+                                            #check-room input.checkdate,
+                                            #check-room select {
+                                                padding: 5px 10px;
+                                                padding: 5px 10px;
+                                                background: #ffffff;
+                                                color: #121212;
+                                                border: 1px solid #cacaca;
+                                            }
+                                        </style>
+                                    </li>
+                                </ul>
+                            </div>
+                        </aside>
+                    </section>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END MAIN CONTENT -->

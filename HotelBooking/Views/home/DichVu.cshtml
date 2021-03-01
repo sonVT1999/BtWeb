@@ -1,0 +1,170 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var services = (List<HotelBooking.ViewModels.ServiceViewModel>)ViewBag.Service;
+
+}
+@using HotelBooking.Models;
+@using HotelBooking.ViewModels;
+
+<!-- SLIDER -->
+<div id="outerafterheader">
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns" id="afterheader">
+                <h1 class="pagetitle nodesc">DỊCH VỤ</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="outermain">
+    <div id="maincontainer">
+        <div class="container">
+            <div class="row">
+                <section id="maincontent">
+                    <section id="content" class="twelve columns">
+                        <div id="ts-portfolio">
+                            <div class="row ">
+                                <section class="content-detail">
+                                    <section class="eight columns positionleft">
+                                        <div id="ts-portfolio">
+                                            <div class="row ">
+                                                @foreach (ServiceViewModel item in services)
+                                                {
+                                                    <div class="item one_half columns">
+                                                        <div class="ts-pf-img">
+                                                            <a class="pfzoom" href="/Home/servicepr/@item.id_services"
+                                                               title="@item.name_type">
+                                                                <img src="/Content/User/files/images/DichVu/@item.name/@item.image_services"
+                                                                     alt="@item.name_type"
+                                                                     style="width: 100%; max-height: 221px;">
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="ts-pf-text">
+                                                            <h3 class="pftitle">
+                                                                <a href="/Home/@item.name"
+                                                                   title="@item.name_type">
+                                                                    @item.name_type
+                                                            </a>
+                                                        </h3>
+                                                        <div class="textcontainer">
+                                                            @{string a = item.content_Service;
+                                                                string b = a.Substring(0, 50);}
+                                                            @b
+                                                        </div>
+                                                        <div class="more-container">
+                                                            <a href="/Home/servicepr/@item.id_services"
+                                                               class="more-link">Chi tiết</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            }
+
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <!-- end post -->
+                                    </section>
+                                    <section>
+                                        <aside id="sidebar" class="four columns positionright">
+                                            <div class="widget-area">
+                                                <ul>
+                                                    <li id="text-3" class="widget-container widget_text">
+                                                        <div class="wrap-mode-check">
+                                                            <h3 class="widget-title">
+                                                                Đặt phòng khách sạn
+                                                            </h3>
+                                                            <div id="wrap-check-one">
+                                                                <form method="post" action="~/home/search" id="check-room">
+                                                                    <div class="av-persion">
+                                                                        <div class="av-item-pertion">
+                                                                            <span>Người lớn:</span>
+                                                                            <select id="av-adult"
+                                                                                    name="Adult">
+                                                                                <option>1</option>
+                                                                                <option>2</option>
+                                                                                <option>3</option>
+                                                                                <option>4</option>
+                                                                                <option>5</option>
+                                                                            </select>
+                                                                        </div>
+                                                                        <div class="av-item-pertion">
+                                                                            <span>Trẻ em:</span>
+                                                                            <select id="av-child"
+                                                                                    name="Child">
+                                                                                <option>0</option>
+                                                                                <option>1</option>
+                                                                                <option>2</option>
+                                                                                <option>3</option>
+                                                                                <option>4</option>
+                                                                                <option>5</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input type="submit" id="av-buton"
+                                                                           value="Tìm phòng trống"
+                                                                           class="btn btn-primary"
+                                                                           style=" padding: 9px 20px; margin-top: 10px; width: 100%" />
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                        <style>
+                                                            .av-check-time,
+                                                            .av-persion,
+                                                            .av-item-pertion {
+                                                                margin-bottom: 8px;
+                                                            }
+
+                                                            #check-room span {
+                                                                display: block;
+                                                                width: 86px;
+                                                                float: left;
+                                                            }
+
+                                                            #check-room input.checkdate,
+                                                            #check-room select {
+                                                                padding: 5px 10px;
+                                                                padding: 5px 10px;
+                                                                background: #ffffff;
+                                                                color: #121212;
+                                                                border: 1px solid #cacaca;
+                                                            }
+                                                        </style>
+
+                                                        <script>
+                                                            $(document).ready(function () {
+                                                                var getdate = new Date();
+                                                                var arrive = getdate;
+                                                                var depart = new Date();
+                                                                depart.setDate(getdate.getDate() + 1);
+                                                                console.log(depart);
+                                                                $("#Arrive").val($.datepicker.formatDate('mm/dd/yy', arrive));
+                                                                $("#Depart").val($.datepicker.formatDate('mm/dd/yy', depart));
+                                                                $("#Arrive").datepicker({
+                                                                    minDate: arrive,
+                                                                });
+                                                                $("#Depart").datepicker({
+                                                                    minDate: depart,
+                                                                });
+                                                            });
+                                                        </script>
+
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </aside>
+                                    </section>
+                                    <div class="clear"></div>
+                                </section>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END MAIN CONTENT -->

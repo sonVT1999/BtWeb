@@ -1,0 +1,134 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_layoutAdmin.cshtml";
+
+}
+
+@using HotelBooking.Models;
+
+@model IEnumerable<Booking>
+
+
+<script>
+    function DisplayImage(result) {
+        if (result.files && result.files[0]) {
+            var fileReader = new FileReader();
+            fileReader.onload = function (e) {
+                $("#imageLink").attr('src', e.target.result);
+            }
+            fileReader.readAsDataURL(result.files[0]);
+        }
+    }
+</script>
+
+<div class="right_col" role="main">
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>Quản lý đơn đặt phòng</h3>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="x_panel">
+            <div class="x_content">
+                <div id="gender" class="btn-group" data-toggle="buttons"></div>
+                <div class="col-md-6 col-sm-6 ">
+                    <div>
+                        <button type="button" class="btn btn-success" data-toggle="modal"
+                            data-target="#divAddRoom" data-backdrop="static" data-keyboard="false">
+                            Thêm
+                        </button>
+                    </div>
+
+                    <form method="post" action="CreateBooking">
+                    <div id="divAddRoom" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title">BookingRoom Management</h4>
+                                    <button type="button" class="close"
+                                        data-dismiss="modal">
+                                        &times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container">
+                                        <div class="form-group col-md-6">
+                                            <label>Id_Booking</label>
+                                             <input class="form-control" name="Id_Booking" />
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label>Status</label>
+                                             <input class="form-control" name="Status" />
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label>Note</label>
+                                             <input class="form-control" name="Note" />
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label>Id_Customer</label>
+                                             <input class="form-control" name="Id_Customer" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-success">Save</button>
+                                    &nbsp;
+                                                    <button type="button" data-dismiss="modal"
+                                                        class="btn btn-danger">
+                                                        Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        </form>
+                </div>
+
+                <form method ="post" action="SearchBooking">
+                <div class="col-md-3 col-sm-3 ">
+                    <input type="text" class="form-control" placeholder="Nhập tên khách hàng">
+                </div>
+                <div class="col-md-3 col-sm-3 ">
+                    <label class="btn btn-primary" data-toggle-class="btn-primary"
+                        data-toggle-passive-class="btn-default">
+                        <input type="radio" name="gender" value="male" class="join-btn">
+                        &nbsp; Tìm kiếm &nbsp;
+                    </label>
+                </div>
+                    </form>
+
+                <br>
+                <br>
+                <table style="width: 100%">
+                    <thead>
+                        <th>action
+                        </th>
+                        <th>Id_Booking
+                        </th>
+                        <th>nameCus
+                        </th>
+                        <th>Note
+                        </th>
+                        <th>Status
+                        </th>
+                    </thead>
+
+                    <body>
+                        @foreach (Booking item in Model)
+                        {
+                        <tr>
+                            <td>
+                                <a id="btnDelete" class="glyphicon glyphicon-trash" href="/Admin/ManageBooking/Delete/@item.Id_Booking"></a>&nbsp; &nbsp;
+                                <a id="btnDetail" class="glyphicon glyphicon-eye-open" href="/Admin/ManageBooking/Details/@item.Id_Booking"></a>
+                            </td>
+                            <td>@item.Id_Booking</td>
+                            <td>@item.User.Name</td>
+                            <td>@item.Note</td>
+                            <td>@item.Status</td>
+                        </tr>
+                        }
+                    </body>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

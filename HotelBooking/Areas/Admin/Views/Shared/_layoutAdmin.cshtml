@@ -1,0 +1,112 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta, title, CSS, favicons, etc. -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AdminPage</title>
+  <!-- Bootstrap -->
+  <link href="/Content/Admin/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="/Content/Admin/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Custom Theme Style -->
+  <link href="/Content/Admin/content/css/custom.min.css" rel="stylesheet">
+</head>
+
+<body class="nav-md">
+  <div class="container body">
+    <div class="main_container">
+      <div class="col-md-3 left_col">
+        <div class="left_col scroll-view">
+          <div class="navbar nav_title" style="border: 0;">
+            <a href="#" class="site_title"><i class="fa fa-adn"></i> <span>Adminator</span></a>
+          </div>
+          <!-- menu profile quick info -->
+          <div class="profile clearfix">
+            <div class="profile_pic">
+              <img src="/Content/Admin/images/Admin.jpg" alt="admin" class="img-circle profile_img">
+            </div>
+            <div class="profile_info">
+              <span>Welcome,</span>
+              <h2>Quang Đạt</h2>
+            </div>
+          </div>
+          <br><br><br>
+          <!-- /menu profile quick info -->
+
+          <!-- sidebar menu -->
+          <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+            <div class="menu_section">
+              <ul class="nav side-menu">
+                <li><a href="~/admin/homeadmin/index"><i = class="fa fa-home"></i>Trang Chủ</a>
+                </li>
+                <li><a><i class="fa fa-edit"></i> Quản lý <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li><a href="~/admin/manageacc/index">Quản lý tài khoản</a></li>
+                    <li><a href="~/admin/managerooms/index">Quản lý phòng</a></li>
+                    <li><a href="~/admin/manageimagerooms/index">Quản lý ảnh phòng</a></li>
+                    <li><a href="~/admin/manageroomtypes/index">Quản lý loại phòng</a></li>
+                    <li><a href="~/admin/manageservices/manageservices">Quản lý dịch vụ</a></li>
+                    <li><a href="~/admin/manageimageservices/index">Quản lý ảnh dịch vụ</a></li>
+                    <li><a href="~/admin/managecus/index">Quản lý Người dùng</a></li>
+                    <li><a href="~/admin/managebooking/managebooking">Quản lý đơn đặt phòng</a></li>
+                    <li><a href="~/admin/managepromotions/managepromotions">Quản lý khuyến mãi</a></li>
+                    <li><a href="~/admin/managegallery/managegallery">Quản lý Gallery</a></li>
+                    <li><a href="~/admin/managecontact/managecontact">Quản lý liên hệ của khách hàng</a></li>
+                    
+                  </ul>
+                </li>
+                <li><a><i class="fa fa-bar-chart-o"></i> Báo cáo <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li><a href="~/admin/homeadmin/BookingStatistics">Báo cáo tần suất đặt phòng</a></li>
+                    <li><a href="~/admin/homeadmin/BillStatistics">Báo cáo doanh thu</a></li>
+                  </ul>
+                </li>
+                <li><a><i class="fa fa-user"></i> Tài khoản <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    @*<li><a href="Profile">Profile</a></li>*@
+                    <li><a href="~/home/Login">Logout</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- /sidebar menu -->
+        </div>
+      </div>
+
+      <!-- top navigation -->
+      <div class="top_nav">
+        <div class="nav_menu">
+          <div class="nav toggle">
+            <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- /top navigation -->
+
+        @RenderBody()
+
+      <!-- footer content -->
+      <footer>
+          <div class="clearfix"></div>
+      </footer>
+      <!-- /footer content -->
+    </div>
+  </div>
+  <!-- jQuery -->
+  <script src="/Content/Admin/vendors/jquery/dist/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="/Content/Admin/vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom Theme Scripts -->
+  <script src="/Content/Admin/content/js/custom.min.js"></script>
+</body>
+
+</html>

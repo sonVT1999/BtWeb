@@ -1,0 +1,142 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=latin,vietnamese' rel='stylesheet'
+          type='text/css'>
+    <!-- CSS -->
+      <link href="/Content/Admin/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/Content/User/Content/css/color.css" rel="stylesheet" />
+    <link href="/Content/User/Content/css/inner.css" rel="stylesheet" />
+    <link href="/Content/User/Content/css/layout.css" rel="stylesheet" />
+    <link href="/Content/User/Content/css/nivo-slider.css" rel="stylesheet" />
+    <link href="/Content/User/Content/css/style.css" rel="stylesheet" />
+    <link href="/Content/User/Plugins/jquery-ui/css/jquery-ui-1.8.7.custom-blue.css" rel="stylesheet" />
+    <!-- Css Menu-->
+    <link href="/Content/User/Plugins/Menu/styles-menu.css" rel="stylesheet" />
+    <!-- comment css-->
+    <link href="/Content/User/Content/css/comment.css" rel="stylesheet" />
+    <!-- JS -->
+    <script src="/Content/User/Plugins/jquery-ui/js/jquery-1.9.1.js"></script>
+    <script src="/Content/User/Plugins/jquery-ui/js/jquery-ui-1.10.0.min.js"></script>
+    <!-- script menu-->
+    <script src="/Content/User/Plugins/Menu/script-menu.js"></script>
+</head>
+
+<body>
+    <div id="bodychild">
+        <div id="outercontainer">
+
+            <!-- HEADER -->
+            <div id="outerheader">
+                <div id="headercontainer">
+                    <div class="container" style="position: relative">
+                        <div id="logo">
+                            <a href="~/home/Index"><img src="/Content/User/files/images/comment/logo.png" alt="GRAND HOTEL"></a>
+                        </div>
+                        <div id="navigation">
+
+                            <div id='cssmenu'>
+                                <ul>
+                                    <li><a href="~/home/Index">Trang Chủ</a></li>
+                                    <li><a href="~/home/GioiThieu">Giới Thiệu</a></li>
+                                    <li><a href="~/home/LoaiPhong">Loại Phòng</a></li>
+                                    <li><a href="~/home/KhuyenMai">Khuyến Mãi</a></li>
+                                    <li><a href="~/home/DichVu">Dịch Vụ</a></li>
+                                    <li><a href="~/home/Gallery">Gallery</a></li>
+                                    <li><a href="~/home/Contact">Liên Hệ</a></li>
+                                    <li><a href="~/home/loaiphong">Đặt Phòng</a></li>
+                                    <li><a href="~/Cart/index"><span class="fa fa-shopping-cart"></span></a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        </header>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <!-- END HEADER -->
+            <!-- SLIDER -->
+
+            @RenderBody()
+            
+            <!-- END MAIN CONTENT -->
+            <!-- FOOTER -->
+            <footer id="footer" >
+                <!-- FOOTER SIDEBAR -->
+                <div id="outerfootersidebar">
+                    <div id="footersidebarcontainer">
+                        <div class="container">
+                            <div class="row">
+                                <div id="copyright" class="three columns">
+                                    <a href="~/home/Index" title="Grand Hotel">
+                                        <img src="/Content/User/files/images/comment/logo.png"
+                                             alt="Grand Hotel">
+                                    </a>
+                                    <div class="copyrighttext">
+                                        Copyright &copy; 2020 by MTA TEAM
+                                    </div>
+                                </div>
+                                <div id="footersidebar" class="nine columns">
+                                    <div id="footcol1" class="six columns">
+                                        <h2 class="widget-title">Grand Hotel</h2>
+                                        Address: 210 Hoàng Quốc Việt, Hà Nội <br />
+                                        Tel: 0357778089<br />
+                                        Email: dat1999vn@gmail.com
+                                    </div>
+                                    <div id="footcol3" class="three columns">
+                                        <ul>
+                                            <li class="widget-container">
+                                                <h2 class="widget-title">About Us</h2>
+                                                <ul>
+                                                    <li><a href="#">Contact Us </a></li>
+                                                    <li><a href="#">Location & map </a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div id="footcol4" class="three columns">
+                                        <ul>
+                                            <li class="widget-container">
+                                                <h2 class="widget-title">Follow Us</h2>
+                                                <p class="social">
+                                                    <a href="#">
+                                                        <img src="/Content/User/Content/img-comment/facebook.png"
+                                                             alt="facebook" />Facebook
+                                                    </a>
+                                                </p>
+                                                <p class="social">
+                                                    <a href="#">
+                                                        <img src="/Content/User/Content/img-comment/youtube.png"
+                                                             alt="Youtube" />Youtube
+                                                    </a>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END FOOTER SIDEBAR -->
+            </footer>
+            <!-- END FOOTER -->
+            <div class="clear"></div><!-- clear float -->
+        </div><!-- end outercontainer -->
+    </div><!-- end bodychild -->
+</body>
+
+</html>

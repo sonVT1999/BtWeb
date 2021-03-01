@@ -1,0 +1,376 @@
+﻿@{
+    Layout = null;
+    var banners = (List<HotelBooking.Models.banner>)ViewBag.banners;
+    var Rooms = (List<HotelBooking.ViewModels.RoomViewModel>)ViewBag.Rooms;
+    var Proms = (List<HotelBooking.Models.Promotion>)ViewBag.Promotions;
+}
+
+@using HotelBooking.Models;
+@using HotelBooking.ViewModels;
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>Grand Hotel</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=latin,vietnamese' rel='stylesheet'
+          type='text/css'>
+    <!-- CSS -->
+    <link href="/Content/User/Content/css/color.css" rel="stylesheet" />
+    <link href="/Content/User/Content/css/inner.css" rel="stylesheet" />
+    <link href="/Content/User/Content/css/layout.css" rel="stylesheet" />
+    <link href="/Content/User/Content/css/nivo-slider.css" rel="stylesheet" />
+    <link href="/Content/User/Content/css/style.css" rel="stylesheet" />
+    <link href="/Content/User/Plugins/jquery-ui/css/jquery-ui-1.8.7.custom-blue.css" rel="stylesheet" />
+    <!-- Css Menu-->
+    <link href="/Content/User/Plugins/Menu/styles-menu.css" rel="stylesheet" />
+    <!-- comment css-->
+    <link href="/Content/User/Content/css/comment.css" rel="stylesheet" />
+    <!-- JS -->
+    <script src="/Content/User/Plugins/jquery-ui/js/jquery-1.9.1.js"></script>
+    <script src="/Content/User/Plugins/jquery-ui/js/jquery-ui-1.10.0.min.js"></script>
+    <!-- script menu-->
+    <script src="/Content/User/Plugins/Menu/script-menu.js"></script>
+</head>
+
+<body class="home">
+    <div id="bodychild">
+        <div id="outercontainer">
+            <!-- HEADER -->
+            <div id="outerheader">
+                <div id="headercontainer">
+                    <div class="container" style="position: relative">
+                        <header id="top">
+                            <div id="logo">
+                                <a href="index.html"><img src="/Content/User/files/images/comment/logo.png" alt="Grand Hotel"></a>
+                            </div>
+                            <div id="navigation">
+                                <div id='cssmenu'>
+                                    <ul>
+                                        <li><a href="~/Home/Index">Trang Chủ</a></li>
+                                        <li><a href="~/Home/GioiThieu">Giới Thiệu</a></li>
+                                        <li><a href="~/Home/LoaiPhong">Loại Phòng</a></li>
+                                        <li><a href="~/Home/KhuyenMai">Khuyến Mãi</a></li>
+                                        <li><a href="~/Home/DichVu">Dịch Vụ</a></li>
+                                        <li><a href="~/Home/Gallery">Gallery</a></li>
+                                        <li><a href="~/Home/contact">Liên Hệ</a></li>
+                                        <li><a href="~/Home/loaiphong">Đặt Phòng</a></li>
+                                        <li><a href="~/Cart/index"><span class="fa fa-shopping-cart"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </header>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <!-- END HEADER -->
+            <!-- SLIDER -->
+                               
+            <div id="outerslider">
+                <div class="container">
+                      
+                    <div id="slidercontainer">
+                        <!-- jQuery nivo Slider -->
+                        <script src="/Content/User/Content/js/jquery.nivo.slider.pack.js"></script>
+                       
+                        <section id="slider">
+                            
+                            <div id="slidernivo" class="nivoSlider">
+                                @foreach (banner item in banners)
+                                {
+                                    <img src="/Content/User/files/images/banner/@item.imageLink" alt="bn1" />
+                                }
+                            </div>
+                        </section>
+                        <div class="clearfix"></div>
+                        <script type="text/javascript">
+                            jQuery(window).load(function () {
+                                jQuery('#slidernivo').nivoSlider({
+                                    directionNav: false,
+                                    controlNav: true,
+                                    effect: 'random',
+                                    slices: 15,
+                                    boxCols: 8,
+                                    boxRows: 4,
+                                    animSpeed: 500,
+                                    pauseTime: 6000,
+                                });
+                            });
+                        </script>
+
+                    </div>
+                     
+                </div>
+            </div>
+                                 
+            <div id="outerafterheader">
+                <div class="container">
+                    <div class="row">
+                        <div class="twelve columns" id="afterheader"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="outermain">
+                <div id="maincontainer">
+                    <div class="container">
+                        <div class="row">
+                            <section id="maincontent">
+                                <section id="content" class="twelve columns">
+                                    <div id="ts-portfolio">
+                                        <div class="row ">
+                                            <h2 style="text-align: center;">Rooms & Rate</h2>
+                                            @foreach (RoomViewModel item in Rooms)
+                                            {
+                                            <div class="item one_fourth columns">
+                                                <div class="ts-pf-img">
+                                                    <a href="#" title=@item.nameType>
+                                                        <span class="rollover"></span>
+                                                        <img src="/Content/User/files/images/Room/@item.url/@item.imageLink"
+                                                             alt="@item.nameType">
+                                                    </a>
+                                                </div>
+                                                <div class="ts-pf-text">
+                                                    <h3 class="pftitle">
+                                                        <a href="#" title=@item.nameType>
+                                                            @item.nameType
+                                                        </a>
+                                                    </h3>
+                                                    <div class="textcontainer">
+                                                        <strong> Giá</strong>
+                                                        <span style="color: red;"> @item.price vnđ/nigh </span>
+                                                        <br />
+                                                        <div style="text-align:justify">
+                                                            <strong>Beds: </strong> @item.bedAmount<br />
+                                                            <strong>Max: </strong>@item.adultAmount Adults + @item.childAmount Child under 6<br />
+                                                            <strong>Size: </strong>@item.size m<sup>2</sup>
+                                                        </div>
+                                                    </div>
+                                                    <div class="more-container">
+                                                        <a href="~/home/previews/@item.MASP" class="more-link">
+                                                            Chi
+                                                            tiết
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                            }
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </section>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="maincontainer">
+                <div class="container">
+                    <div class="row">
+                        <section id="maincontent">
+                            <section id="content" class="twelve columns">
+                                <div class="row">
+                                    <h2 style="text-align: center;">Advantages in grand hotel</h2>
+                                    <div class="item one_fourth columns">
+                                        <!--Service Block-->
+                                        <div>
+                                            <i class="fa fa-bed" style="color: rgba(255, 0, 0, 0.75); zoom: 4;"
+                                               aria-hidden="true"></i>
+                                        </div>
+                                        <h3>Master BedRooms</h3>
+                                        <div class="text">
+                                            Đến với GrandHotel bạn sẽ được tận hưởng 1 phòng ngủ
+                                            đầy sang trọng và quý phái. Thư giãn sau những giờ làm việc mệt mỏi
+                                        </div>
+                                    </div>
+                                    <div class="item one_fourth columns">
+                                        <!--Service Block-->
+                                        <div>
+                                            <i class="fa fa-umbrella" style="color: rgba(255, 0, 0, 0.75); zoom: 4;"
+                                               aria-hidden="true"></i>
+                                        </div>
+                                        <h3>Sea view bacony</h3>
+                                        <div class="text">
+                                            Với View nhìn ra biển thì các bạn có thể tận hưởng
+                                            những giây phút thật relax cùng với GrandHotel
+                                        </div>
+                                    </div>
+                                    <div class="item one_fourth columns">
+                                        <!--Service Block-->
+                                        <div>
+                                            <i class="fa fa-bath" style="color: rgba(255, 0, 0, 0.75); zoom: 4;"
+                                               aria-hidden="true"></i>
+                                        </div>
+                                        <h3>pool & spa</h3>
+                                        <div class="text">
+                                            GrandHotel cung cấp dịch vụ bể bơi cùng với spa vô cùng
+                                            thư giãn
+                                        </div>
+                                    </div>
+                                    <div class="item one_fourth columns">
+                                        <!--Service Block-->
+                                        <div>
+                                            <i class="fa fa-wifi" style="color: rgba(255, 0, 0, 0.75); zoom: 4;"
+                                               aria-hidden="true"></i>
+                                        </div>
+                                        <h3>wifi free</h3>
+                                        <div class="text">
+                                            Wifi ở trong và xung quanh GrandHotel luôn luôn có free
+                                            cho quý anh chị và các bạn
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <div id="outerbottom">
+                <div id="bottomcontainer">
+                    <div class="container">
+                        <div class="row">
+                            <div class=" four columns">
+                                <a href="GioiThieu.html">
+                                    <img src="/Content/User/files/images/Article/81119049.jpg" alt="Welcome to Grand Hotel" />
+                                </a>
+                            </div>
+
+                            <div class="four columns" style="margin-bottom: 10px">
+                                <h3 class="widget-title">Welcome to Grand Hotel</h3>
+                                <div class="textwidget">
+                                    <p style="text-align:justify">
+                                        Grand hotel là một khách sạn sang trọng,
+                                        đẳng cấp hàng đầu tại Việt Nam. Đến với Grand Hotel, bạn không
+                                        chỉ được đắm chìm trong cuộc sống vương giả với đầy đủ tiện nghi,
+                                        dịch vụ chuyên nghiệp, chất lượng hàng đầu mà còn cảm nhận được không khí ấm
+                                        cúng,
+                                        thoải mái và dễ chịu như gia đình ngay tại nhà.<br />
+                                        <br />
+                                        Grand hotel là một nơi an toàn, thân thiện cho mọi người khi ở Hà Nội.
+                                        Tọa lạc tại một vị trí đắc địa, ngay trung tâm thành phố, dễ dà ng đến
+                                        các điểm tham quan du lịch của Hà Nội, khách sạn có thể dễ dàng đến tất
+                                        cả các điểm du lịch nổi tiếng. Đây cũng là một điểm đến lý tưởng nhờ
+                                        dịch vụ cao cấp được cung cấp bởi khách sạn. Tất cả các phòng đều được
+                                        thiết kế theo phong cách hiện đại pha trộn giữa kiến ​​trúc cổ điển, độc đáo,
+                                        hài hòa giữa vẻ đẹp truyền thống của người Việt và sự tinh tế của phương Tây.
+                                    </p>
+                                    <br />
+                                    <br />
+                                    <a href="home/GioiThieu" class="more-link">Chi tiết</a>
+                                    <br />
+                                </div>
+                            </div>
+
+                            <div class="widget-bottom3 four columns">
+                                <ul>
+                                    <li class="widget-container">
+                                        <h3 class="widget-title" style="margin-left: -10px; color:red"></h3>
+                                        <div class="ts-testimonial-widget">
+                                            <div class="row">
+                                                <div class="twelve columns omega">
+                                                    @foreach(Promotion item in Proms){
+                                                    <div class="item-offer">
+                                                        <img src="/Content/User/files/images/Room/phong-deluxe/@item.ImageLink"
+                                                             alt="Big promotion" />
+                                                        <h3>
+                                                            <a href="KhuyenMai.html">@item.Title</a>
+                                                        </h3>
+                                                        <p>
+                                                           @item.Detail
+                                                        </p>
+                                                    </div>
+                                                    }
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END MAIN CONTENT -->
+            <!-- FOOTER -->
+            <footer id="footer">
+                <!-- FOOTER SIDEBAR -->
+                <div id="outerfootersidebar">
+                    <div id="footersidebarcontainer">
+                        <div class="container">
+                            <div class="row">
+                                <div id="copyright" class="three columns">
+                                    <a href="index.html" title="Grand Hotel">
+                                        <img src="/Content/User/files/images/comment/logo.png"
+                                             alt="Grand Hotel">
+                                    </a>
+                                    <div class="copyrighttext">
+                                        Copyright &copy; 2020 by MTA TEAM
+                                    </div>
+                                </div>
+                                <div id="footersidebar" class="nine columns">
+                                    <div id="footcol1" class="six columns">
+                                        <h2 class="widget-title">Grand Hotel</h2>
+                                        Address: 210 Hoàng Quốc Việt, Hà Nội <br />
+                                        Tel: 0357778089<br />
+                                        Email: dat1999vn@gmail.com
+                                    </div>
+                                    <div id="footcol3" class="three columns">
+                                        <ul>
+                                            <li class="widget-container">
+                                                <h2 class="widget-title">About Us</h2>
+                                                <ul>
+                                                    <li><a href="#">Contact Us </a></li>
+                                                    <li><a href="#">Location & map </a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div id="footcol4" class="three columns">
+                                        <ul>
+                                            <li class="widget-container">
+                                                <h2 class="widget-title">Follow Us</h2>
+                                                <p class="social">
+                                                    <a href="#">
+                                                        <img src="/Content/User/Content/img-comment/facebook.png" alt="facebook" />Facebook
+                                                    </a>
+                                                </p>
+                                                <p class="social">
+                                                    <a href="#">
+                                                        <img src="/Content/User/Content/img-comment/youtube.png" alt="Youtube" />Youtube
+                                                    </a>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END FOOTER SIDEBAR -->
+            </footer>
+            <!-- END FOOTER -->
+            <div class="clear"></div><!-- clear float -->
+        </div><!-- end outercontainer -->
+    </div><!-- end bodychild -->
+</body>
+
+</html>

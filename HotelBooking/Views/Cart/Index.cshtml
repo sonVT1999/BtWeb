@@ -1,0 +1,140 @@
+﻿@{
+    ViewBag.Title = "User";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var Rooms = (List<HotelBooking.ViewModels.RoomViewModel>)ViewBag.Rooms;
+}
+
+
+@using HotelBooking.ViewModels;
+@model Cart
+<title>Giỏ Hàng</title>
+<div id="outerafterheader">
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns" id="afterheader">
+                <h1 class="pagetitle">Đơn đặt phòng của bạn</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <form method="post" action="~/Cart/updatecart">
+        <div id="outermain">
+            <div id="maincontainer">
+                <div class="container">
+                    <div class="row">
+                        <section id="maincontent">
+                            <section id="content" class="twelve columns">
+                                <div id="ts-portfolio">
+                                    <div class="text-right">
+                                        <p class="social">
+                                            <a href="~/home/Login">
+                                                <img src="/Content/User/Content/img-comment/logout-icon.png" alt="facebook" />Đăng Xuất
+                                            </a>
+                                        </p>
+                                        <div>
+                                            <a href="~/home/loaiphong">Quay lại danh sách loại phòng</a>
+                                            <button type="submit">Cập nhật đơn đặt phòng</button>
+                                        </div>
+                                    </div>
+                                    <br />
+                                     @if (Model.Lines.Count() > 0)
+                                     {
+                                    <table style="width: 100%">
+                                        <thead>
+                                            <th>Ảnh phòng
+                                            </th>
+                                            <th>Loại Phòng
+                                            </th>
+                                            <th>Giá
+                                            </th>
+                                            <th>Số lượng phòng
+                                            </th>
+                                            <th>Số ngày dự tính ở
+                                            </th>
+                                            <th>Thành tiền
+                                            </th>
+                                            <th>Action
+                                            </th>
+                                        </thead>
+
+                                        <body>
+                                            @{ int i = 0;
+                                               double? sum = 0;
+                                               TimeSpan songay;
+                                               songay = @ViewBag.ngaydi - @ViewBag.ngayden;
+                                            }
+                                            @foreach (CartItem it in Model.Lines)
+                                            {    
+                                                <tr>
+                                                    <td><a class="product-image" href="/home/previews/@it.Room.Id_Room">
+                                                        <img height="100px" width="100px" alt="ImageRooms" src="/Content/User/files/images/Room/@it.Room.Name/@it.Room.imageLink">
+                                                    </a></td>
+                                                    <td>
+                                                        <a href="/home/previews/@it.Room.Id_Room">@it.Room.Name</a>
+
+                                                    </td>
+                                                    <td class="text-center">@it.Room.Price.GetValueOrDefault().ToString("N0") VNĐ </td>
+                                                    <td class="qty">
+                                                        <input type="hidden" name="maphong[@i]"  value="@it.Room.Id_Room" />
+                                                        <input type="text" name="qty[@i]" class="cart-input" value="@it.Quantity"  />
+                                                    </td>
+
+                                                    <td>
+                                                        @songay.Days
+                                                    </td>
+                                                    <td class="subtotal">@((it.Quantity * it.Room.Price.GetValueOrDefault(0) * songay.Days).ToString("N0"))   VNĐ</td>
+                                                    
+                                                    <td class="text-center"><a  class="btn-remove" href="/Cart/RemoveLine/@it.Room.Id_Room"><i class="fa fa-trash" aria-hidden="true"></i></a></td>
+                                                </tr>
+
+                                                sum += it.Quantity * it.Room.Price * songay.Days;
+                                                i += 1;
+                                            }
+                                        </body>
+                                    </table>
+                                         
+                                    <br />
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <a style="float: left" href="~/cart/xacnhan"><h2>Xác nhận</h2></a>
+                                                @*<input type="submit" style="text-align: right" name="tongtien" value="@sum"/>Tổng tiền: @sum VNĐ*@
+                                                <h2 style="text-align: right">Tổng tiền: @sum VNĐ</h2>
+                                                
+                                            </div>
+                                        </div>
+                                     }
+                                     else
+                                     {
+                                         <h2 class="txt-center">Đơn hàng của bạn đang trống</h2>	
+                                     }
+                                    @*<div class="clear"></div>
+                                    <h2 style="text-align: right">Tổng tiền: @sum VNĐ</h2>*@
+                                </div>
+                            </section>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <style>
+        th {
+            height: 100px;
+            line-height: 100px;
+            white-space: nowrap;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        #footer {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</div>

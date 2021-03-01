@@ -1,0 +1,151 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_layoutAdmin.cshtml";
+}
+
+@using HotelBooking.Models;
+@model IEnumerable<User>
+
+<script>
+    function DisplayImage(result) {
+        if (result.files && result.files[0]) {
+            var fileReader = new FileReader();
+            fileReader.onload = function (e) {
+                $("#imageLink").attr('src', e.target.result);
+            }
+            fileReader.readAsDataURL(result.files[0]);
+        }
+    }
+</script>
+
+<div class="right_col" role="main">
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>Quản lý người dùng</h3>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="x_panel">
+            <div class="x_content">
+                <div id="gender" class="btn-group" data-toggle="buttons"></div>
+                <div class="col-md-6 col-sm-6 ">
+                    <div>
+                        <button type="button" class="btn btn-success" data-toggle="modal"
+                            data-target="#divAddRoom" data-backdrop="static"
+                            data-keyboard="false">
+                            Thêm</button>
+                    </div>
+
+                    <form method="post" action="CreatCus">
+                        <div id="divAddRoom" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Users Management</h4>
+                                        <button type="button" class="close"
+                                            data-dismiss="modal">
+                                            &times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container">
+                                            <div class="form-group col-md-6">
+                                                <label>Name</label>
+                                                <input class="form-control" name="Name" />
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label>Permission:</label><br />
+                                                <input name="Permission" type="radio" value="True" />Nhân viên<br />
+                                                <input name="Permission" type="radio" value="False" />Khách hàng
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label>Sex:</label> <br />
+                                                <input name="Sex" type="radio" value="True" />Nam <br />
+                                                <input name="Sex" type="radio" value="False" />Nữ
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label>Email</label><br />
+                                                <input class="form-control" name="Email" />
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label>Address</label>
+                                                <input class="form-control" name="Address" />
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label>Phone</label>
+                                                <input class="form-control" name="Phone" />
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label>Image</label>
+                                                <input type="File" class="form-control" name="Image"
+                                                    title="Load Image" onchange="DisplayImage(this)"/>
+                                                <img id="imageLink" height="200" width="200"
+                                                    style="border: solid"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="submit" class="btn btn-success">Save</button>
+                                        &nbsp;
+                                                <button type="button" data-dismiss="modal"
+                                                    class="btn btn-danger">
+                                                    Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <form method ="post" action="SearchCus">
+                    <div class="col-md-3 col-sm-3 ">
+                        <input type="text" name="nameCus" id="nameCus" class="form-control" placeholder="Nhập tên khách hàng" />
+                    </div>
+                    <div class="col-md-3 col-sm-3 ">
+                        <label class="btn btn-primary" data-toggle-class="btn-primary"
+                            data-toggle-passive-class="btn-default">
+                            <input type="submit" name="gender" value="male" class="join-btn" />
+                            &nbsp; Tìm kiếm &nbsp;
+                        </label>
+                    </div>
+                </form>
+                <br>
+                <br>
+                <table style="width: 100%">
+                    <thead>
+                        <th>action</th>
+                        <th>Name</th>
+                        <th>Permission</th>
+                        <th>Sex</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                        <th>Phone</th>
+                        <th>Image</th>
+                    </thead>
+
+                    <body>
+                        @foreach (User item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <a id="btnDelete" class="glyphicon glyphicon-trash" href="/Admin/ManageCus/Delete/@item.Id_User"></a>&nbsp; &nbsp;
+                                    <a id="btnModify" class="glyphicon glyphicon-pencil" href="/Admin/ManageCus/Edit/@item.Id_User"></a>
+                                </td>
+                                
+                                <td>@item.Name</td>
+                                <td>@(item.Permission == true? "Nhân viên" : "Khách hàng")</td>
+                                <td>@(item.Sex == true? "Nam" : "Nữ")</td>
+                                <td>@item.Email</td>
+                                <td>@item.Address</td>
+                                <td>@item.Phone</td>
+                                @*<td>@(item.Permission == true? "Quản lý" : "Khách hàng")</td>*@
+                                <td> <img src="/Content/Admin/images/@item.ImageLink" alt="avatarCus" height="50" width="50"/> </td>
+                            </tr>
+                        }
+                    </body>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

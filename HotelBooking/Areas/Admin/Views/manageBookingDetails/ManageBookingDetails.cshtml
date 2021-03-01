@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_layoutAdmin.cshtml";
+}
+
+@using HotelBooking.Models;
+@model IEnumerable<BookingDetail>
+
+<div class="right_col" role="main">
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>Quản lý chi tiết đơn đặt phòng</h3>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="x_panel">
+            <div class="x_content">
+
+
+                
+                <div class="item form-group">
+                    <div class="col-md-6 col-sm-6 offset-md-3">
+                        <button class="btn btn-success" type="button">Xác nhận</button>
+                        <a href="/Admin/ManageBooking/manageBooking" class="btn btn-primary" type="reset">Quay Lại</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

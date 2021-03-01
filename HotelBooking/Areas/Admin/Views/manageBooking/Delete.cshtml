@@ -1,0 +1,60 @@
+﻿@{
+    ViewBag.Title = "";
+    Layout = "~/Areas/Admin/Views/Shared/_layoutAdmin.cshtml";
+}
+
+@using HotelBooking.Models;
+@model Booking
+
+<script>
+    function DisplayImage(result) {
+        if (result.files && result.files[0]) {
+            var fileReader = new FileReader();
+            fileReader.onload = function (e) {
+                $("#ImageLink").attr('src', e.target.result);
+            }
+            fileReader.readAsDataURL(result.files[0]);
+        }
+    }
+</script>
+
+<div class="right_col" role="main">
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>Xóa</h3>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="x_panel">
+            <div class="x_content">
+                <form method="post">
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="form-group col-md-6">
+                                <label>Id_Booking</label>
+                                <input class="form-control" name="Id_Booking" value="@Model.Id_Booking"/>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>Name</label>
+                                <input class="form-control" name="NameCus" value="@Model.User.Name"/>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>Note</label>
+                                <input class="form-control" name="Note" value="@Model.Note"/>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>Status</label>
+                                <input class="form-control" name="Status" value="@Model.Status"/>
+                            </div>
+                                <div class="form-group col-md-6">
+                                    <button type="submit" class="btn btn-success">Save</button>
+                                </div>
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_layoutAdmin.cshtml";
+}
+
+@using HotelBooking.Models;
+@*@model IEnumerable<BookingDetail>*@
+@model BookingDetail
+
+<div class="right_col" role="main">
+    <div class="col-md-12">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>Quản lý chi tiết đơn đặt phòng</h3>
+            </div>
+        </div>
+        @*        <div class="clearfix"></div>*@
+        <div class="x_panel">
+            <div class="x_content">
+                @*                @foreach (BookingDetail item in Model)
+                {
+                    
+                    *@
+                <div class="item form-group">
+                    <label class="col-form-label col-md-4 col-sm-4 label-align">id Detail: @Model.Id</label>
+                </div>
+                <div class="item form-group">
+                    <label class="col-form-label col-md-4 col-sm-4 label-align">room Infor: @Model.Room.RoomType.Note</label>
+                </div>
+                <div class="item form-group">
+                    <label class="col-form-label col-md-4 col-sm-4 label-align">adult Amount: @Model.Room.RoomType.Adult_Amount</label>
+                </div>
+                <div class="item form-group">
+                    <label class="col-form-label col-md-4 col-sm-4 label-align">Child Amount: @Model.Room.RoomType.Children_Amount</label>
+                </div>
+                <div class="item form-group">
+                    <label class="col-form-label col-md-4 col-sm-4 label-align">Name Cus: @Model.Booking.User.Name</label>
+                </div>
+                <div class="item form-group">
+                    <label class="col-form-label col-md-4 col-sm-4 label-align">start Day: @Model.StartDay</label>
+                </div>
+                <div class="item form-group">
+                    <label class="col-form-label col-md-4 col-sm-4 label-align">end Day: @Model.EndDay</label>
+                </div>
+                <div class="item form-group">
+                    <label class="col-form-label col-md-4 col-sm-4 label-align">id Room: @Model.Room.Id_Room</label>
+                </div>
+                <div class="item form-group">
+                    <label class="col-form-label col-md-4 col-sm-4 label-align">id Booking: @Model.Id_Booking</label>
+                </div>
+                <div class="item form-group">
+                    <label class="col-form-label col-md-4 col-sm-4 label-align">total Amount: @Model.Total_Amount</label>
+                </div>
+                @*}*@
+                <div class="col-md-6 col-sm-6 offset-md-3">
+@*                    <button class="btn btn-success" type="submit">Xác nhận</button>*@
+                    <a href="/Admin/ManageBooking/manageBooking" class="btn btn-primary" type="reset">Quay Lại</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

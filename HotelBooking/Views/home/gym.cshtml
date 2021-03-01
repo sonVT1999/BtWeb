@@ -1,0 +1,208 @@
+﻿@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+@using HotelBooking.Models;
+
+
+<div id="outerafterheader">
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns" id="afterheader">
+                <h1 class="pagetitle nodesc">Gym</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="outermain">
+    <div id="maincontainer">
+        <div class="container">
+            <div class="row">
+                <section id="maincontent">
+                    <section id="content" class="twelve columns">
+                        <div id="ts-portfolio">
+                            <div class="row ">
+                                <section class="single content-detail">
+                                    <section class="eight columns positionleft">
+                                        <article class="post">
+                                            <div class="articlecontainer">
+                                                <div id="tabbed-nav">
+                                                    <!-- Tab Navigation Menu, to have seo friendly hashtags, add data-link attribute to each li tag and give it a unique id to apear in the url-->
+                                                    <ul>
+                                                        <li data-link="Chi tiet"><a>Chi tiết</a></li>
+                                                    </ul>
+                                                    <!-- Content container -->
+                                                    @foreach (ServiceView item in Model)
+                                                    {
+                                                        <div>
+                                                            <div>
+                                                                <div id="ts-portfolio"
+                                                                    style="margin-bottom: 20px;">
+                                                                    <div class="row ">
+                                                                        <div class="columns one_half">
+                                                                            <div class="columns one_half"
+                                                                                style="padding: 0px 9px; margin-bottom: 22px;">
+                                                                                <div class="ts-pf-img">
+                                                                                    <a class="pfzoom"
+                                                                                       href="/Content/User/files/images/DichVu/@item.Name/@item.Image_service"
+                                                                                       data-rel="prettyPhoto[mixed]"
+                                                                                       rel="prettyPhoto[mixed]">
+                                                                                        @foreach (ImageService i in Model)
+                                                                                        {
+                                                                                            <img src="/Content/User/files/images/DichVu/@i.Service.Name/@i.imageLink"/>
+                                                                                        }
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div style="margin-top: 9px;"
+                                                                            class="columns one_half">
+                                                                            <p>
+                                                                                @item.Content_Service
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    }
+
+                                                </div>
+                                                <script>
+                                                    jQuery(document).ready(function ($) {
+                                                        /* jQuery activation and setting options for the tabs, also setting the the following:
+                                                    - deeplinking: for deep-linking
+                                                    - defaultTab: change it to one the new tab id*/
+                                                        $("#tabbed-nav").zozoTabs({
+                                                            theme: "silver",
+                                                            position: "top-left",
+                                                            orientation: "horizontal",
+                                                            deeplinking: true,
+                                                            defaultTab: 'Chi tiet'
+                                                        });
+
+                                                        jQuery("a[rel^='prettyPhoto']").prettyPhoto({ animationSpeed: 'slow', theme: 'pp_default', gallery_markup: '', slideshow: 2000, social_tools: '' });
+                                                    });
+                                                </script>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </article>
+                                        <div class="clear"></div>
+                                        <section class="other-content">
+                                            <div id="ts-portfolio">
+                                                <div class="row">
+                                                    <h2 class="h2-other">dịch vụ liên quan</h2>
+                                                    @foreach (ServiceView item in Model)
+                                                    {
+                                                        <div class="item one_third columns item-other">
+                                                            <div class="ts-pf-img">
+                                                                <a href="/home/@item.Name">
+                                                                    <img src="/Content/User/files/images/DichVu/@item.Name/@item.Image_service"
+                                                                         alt="@item.Name">
+                                                                </a>
+                                                            </div>
+                                                            <div class="ts-pf-text">
+                                                                <h3 class="pftitle">
+                                                                    <a href="/home/@item.Name"
+                                                                       title="@item.Name">@item.Name</a>
+                                                                </h3>
+                                                            </div>
+                                                        </div>
+                                                    }
+
+                                                </div>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </section>
+                                        <!-- end post -->
+                                    </section>
+                                    <section>
+                                        <aside id="sidebar" class="four columns positionright">
+                                            <div class="widget-area">
+                                                <ul>
+                                                    <li id="text-3" class="widget-container widget_text">
+                                                        <div class="wrap-mode-check">
+                                                            <h3 class="widget-title">Đặt phòng khách sạn
+                                                            </h3>
+                                                            <div id="wrap-check-one">
+                                                                <form method="post" action="~/home/search" id="check-room">
+                                                                    <div class="av-persion">
+                                                                        <div class="av-item-pertion">
+                                                                            <span>Người lớn:</span>
+                                                                            <select id="av-adult"
+                                                                                name="Adult">
+                                                                                <option>1</option>
+                                                                                <option>2</option>
+                                                                                <option>3</option>
+                                                                                <option>4</option>
+                                                                                <option>5</option>
+                                                                            </select>
+
+                                                                        </div>
+                                                                        <div class="av-item-pertion">
+                                                                            <span>Trẻ em:</span>
+                                                                            <select id="av-child"
+                                                                                name="Child">
+                                                                                <option>0</option>
+                                                                                <option>1</option>
+                                                                                <option>2</option>
+                                                                                <option>3</option>
+                                                                                <option>4</option>
+                                                                                <option>5</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <input type="submit" id="av-buton"
+                                                                        value="Tìm phòng trống"
+                                                                        class="btn btn-primary"
+                                                                        style="padding: 9px 20px; margin-top: 10px; width: 100%" />
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                        <style>
+                                                            .av-check-time,
+                                                            .av-persion,
+                                                            .av-item-pertion {
+                                                                margin-bottom: 8px;
+                                                            }
+
+                                                            #check-room span {
+                                                                display: block;
+                                                                width: 86px;
+                                                                float: left;
+                                                            }
+
+                                                            #check-room input.checkdate,
+                                                            #check-room select {
+                                                                padding: 5px 10px;
+                                                                padding: 5px 10px;
+                                                                background: #ffffff;
+                                                                color: #121212;
+                                                                border: 1px solid #cacaca;
+                                                            }
+                                                        </style>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </aside>
+                                    </section>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .z-tabs.silver > ul,
+    .z-tabs.silver > ul > li > a,
+    .z-tabs.silver > .z-container {
+        border: none;
+    }
+</style>
+<!-- END MAIN CONTENT -->

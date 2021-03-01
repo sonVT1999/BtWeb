@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_layoutAdmin.cshtml";
+}
+@using HotelBooking.Models;
+@model HotelBooking.Areas.Admin.Controllers.homeAdminController.MyViewModel
+
+
+<div class="right_col" role="main">
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>Trang chủ</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" style="display: inline-block;">
+        <div class="tile_count">
+            <div class="col-md-6  tile_stats_count">
+                <div style="margin-left: 200px">
+                    <span class="count_top" style="font-size: 30px; margin-left: -45px"><i class="fa fa-users"></i>Total Users</span>
+                @*  <div class="count">@Model.cusCount</div>*@
+                    <a href="~/admin/managecus/index" class="count_bottom"><i class="green">View Detail </i></a>
+                </div>
+            </div>
+            <div class="col-md-5  tile_stats_count">
+                <div style="margin-left: 200px">
+                    <span class="count_top" style="font-size: 30px; margin-left: -45px"><i class="fa fa-clock-o"></i>Total Rooms</span>
+                    @*<div class="count">@Model.roomCount</div>*@
+                    <a href="~/admin/manageRooms/index" class="count_bottom"><i class="green">View Detail </i></a>
+                </div>
+
+            </div>
+            <div class="col-md-6   tile_stats_count">
+                <div style="margin-left: 200px">
+                    <span class="count_top" style="font-size: 30px; margin-left: -45px"><i class="fa fa-user"></i>Total Services</span>
+                    @*<div class="count">@Model.serviceCount</div>*@
+k                    <a href="~/admin/manageServices/ManageServices" class="count_bottom"><i class="green">View Detail </i></a>
+                </div>
+            </div>
+
+            <div class="col-md-6 tile_stats_count">
+                <div style="margin-left: 200px">
+                    <span class="count_top" style="font-size: 30px; margin-left: -45px"><i class="fa fa-address-card-o"></i>Total Booking</span>
+                    @*<div class="count">@Model.bookingCount</div>*@
+                    <a href="~/admin/manageBooking/manageBooking" class="count_bottom"><i class="green">View Detail </i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,75 @@
+﻿@{
+    ViewBag.Title = "xacnhan";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<title>Giỏ Hàng</title>
+<div id="outerafterheader">
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns" id="afterheader">
+                <h1 style="font-size: 36px" class="pagetitle">Lịch Trình Của Bạn</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="outermain">
+    <div id="maincontainer">
+        <div class="container">
+            <div>
+                <div class="form-group col-md-12">
+                <label>Ngày đến: @ViewBag.ngayden</label>
+                    </div>
+                <br />
+                <div class="form-group col-md-12">
+                <label>Ngày đi: @ViewBag.ngaydi</label>
+                    </div>
+                <br />
+                <br />
+                <!-- Trigger the modal with a button -->
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Xác nhận</button>
+
+                <!-- Modal -->
+                <form method="post" action="addBooking">
+
+                    <div id="myModal" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Thông báo đăng ký thành công</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <input type="hidden" value="@ViewBag.iduser" name="Id_Customer"/>
+                                    <div>
+                                        <input type="hidden" value="@ViewBag.ngayden" name="StartDay"/>
+                                    </div>
+                                    <br />
+                                    <div>
+                                        <input type="hidden" value="@ViewBag.ngaydi" name="EndDay"/>
+                                    </div>
+                                    <p>Chúc mừng quý khách đã đăng ký đặt phòng thành công. Chỉ khi chúng tôi liên lạc lại cho quý khách thì đơn đặt phòng của bạn mới được coi là hợp lệ, kính chào quý khách!!!</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-successful">Ok</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            @*<h2 style="font-size: 36px">Cảm ơn bạn, bạn đã đăng ký đặt phòng thành công, chúng tôi sẽ sớm liên hệ lại cho bạn, lúc đó đơn đặt phòng của bạn mới được coi là hợp lệ!!!</h2>*@
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+    </div>
+</div>
+

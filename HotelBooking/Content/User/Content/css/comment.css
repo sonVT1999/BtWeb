@@ -1,0 +1,79 @@
+﻿ #wraploadding {
+        background-color: #fff;
+        opacity: 0.8;
+        z-index: 5000;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        display: none;
+    }
+    #wraploadding div#imgloadding {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        position: relative;
+    }
+
+.form-group label.error {
+    color: red;
+}
+.form-group select.country {
+    width: 89%;
+}
+.form-group {
+     margin-bottom: 10px; 
+}
+.form-group label {
+    display: block;
+}
+.wrap-submit {
+    float: left;
+    width: 100%;
+    margin: 20px 0px;
+}
+.form-group textarea.orther-request {
+    width: 84%;
+}
+.table-list-room {
+    width: 100%;
+    margin: 15px 0px;
+    padding: 0px;
+}
+
+.table-list-room tr td {
+    height: 30px;
+    padding: 7px 5px;
+     border: 1px solid #ddd;
+}
+.table-list-room tr td a {
+    text-decoration: underline;
+}
+.td-name {
+    max-width: 50%;
+    min-width: 85px;
+}
+.table-list-room tr td.td-price, .table-list-room tr td.td-max {
+    max-width: 15%;
+    text-align: center;
+}
+.td-select {
+    width: 20%;
+}
+.td-select select {
+    margin-left: 10%;
+    width: 70%;
+    min-width: 39px;
+    padding: 10px 2px;
+
+}
+.ui-widget-overlay {
+    display: none;
+}
+.list-language {
+    z-index: 9999;
+}
+.list-language a {
+    width: 28px;
+    margin-left: 10px;
+    float: right;
+}

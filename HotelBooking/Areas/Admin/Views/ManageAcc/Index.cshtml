@@ -1,0 +1,75 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_layoutAdmin.cshtml";
+}
+@using HotelBooking.Models;
+@model IEnumerable<User>
+
+<div class="right_col" role="main">
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>Quản lý tài khoản</h3>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="x_panel">
+            <div class="x_content">
+                <div id="gender" class="btn-group" data-toggle="buttons"></div>
+                <div class="col-md-6 col-sm-6 ">
+
+                </div>
+
+                <form method="post" action="SearchAcc">
+                    <div class="col-md-3 col-sm-3 ">
+                        <input name="name" type="text" class="form-control" placeholder="Nhập tên người dùng">
+                    </div>
+                    <div class="col-md-3 col-sm-3 ">
+                        <label class="btn btn-primary" data-toggle-class="btn-primary"
+                            data-toggle-passive-class="btn-default">
+                            <input type="submit" name="gender" value="male" class="join-btn">
+                            &nbsp; Tìm kiếm &nbsp;
+                        </label>
+                    </div>
+                </form>
+
+                <br>
+                <br>
+                <table style="width: 100%">
+                    <thead>
+                        <th>action
+                        </th>
+                        <th>Id
+                        </th>
+                        <th>userName
+                        </th>
+                        <th>passWord
+                        </th>
+                        <th>Permission
+                        </th>
+                        <th>Name
+                        </th>
+                    </thead>
+
+                    <body>
+                        @foreach (User item in Model)
+                        {
+                        <tr>
+                            <td>
+                                <a id="btnDelete" class="glyphicon glyphicon-trash" href="/Admin/ManageAcc/Delete/@item.Id_User"></a>&nbsp; &nbsp;
+                                <a id="btnModify" class="glyphicon glyphicon-pencil" href="/Admin/ManageAcc/Edit/@item.Id_User"></a>
+                            </td>
+                            <td>@item.Id_User</td>
+                            <td>@item.UserName</td>
+                            <td>@item.PassWord</td>
+                            <td>@(item.Permission == true? "Quản lý" : "Khách hàng")</td>
+                            <td>@item.Name</td>
+                        </tr>
+                        }
+                    </body>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

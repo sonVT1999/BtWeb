@@ -1,0 +1,123 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_layoutAdmin.cshtml";
+}
+@using HotelBooking.Models;
+@model IEnumerable<Room>
+
+<div class="right_col" role="main">
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>Quản lý phòng</h3>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="x_panel">
+            <div class="x_content">
+                <div id="gender" class="btn-group" data-toggle="buttons"></div>
+                <div class="col-md-3 col-sm-3 ">
+                    <div>
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#divAddRoom" data-backdrop="static" data-keyboard="false">Thêm</button>
+                    </div>
+
+                    <form method="post" action="CreateRoom">
+                        <div id="divAddRoom" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Room Management</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container">
+                                            <div class="form-group col-md-6">
+                                                <label>Id_Room</label>
+                                                <input class="form-control" name ="Id_Room"/>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label>Name</label>
+                                                <input class="form-control" name ="Name"/>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label>Price</label>
+                                                <input class="form-control" name ="Price"/>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                 <label>Status</label><br />
+                                                 <input name="Status" type="radio" value= "True" />Có khách<br />
+                                                 <input name="Status" type="radio" value= "False" />Trống
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label>Room Type</label>
+                                                <select class="form-control" name="Id_Type">
+                                                    <option value="MLP01">Phòng Deluxe</option>
+                                                    <option value="MLP02">Phòng Superior</option>
+                                                    <option value="MLP03">Phòng Suite</option>
+                                                    <option value="MLP04">Phòng Luxury</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="submit" class="btn btn-success">Save</button> &nbsp;
+                                        <button type="button" data-dismiss="modal" class="btn btn-danger">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <form method="post" action="SearchRooms">
+                    <div class="col-md-2 col-sm-2 ">
+                        <input name="roomName" type="text" class="form-control" placeholder="Nhập tên phòng">
+                    </div>
+                    <div class="col-md-3 col-sm-3 ">
+                        <label class="btn btn-primary" data-toggle-class="btn-primary"
+                            data-toggle-passive-class="btn-default">
+                            <input type="submit" name="gender" value="male" class="join-btn">
+                            &nbsp; Tìm kiếm &nbsp;
+                        </label>
+                    </div>
+                </form>
+
+                <br>
+                <br>
+                <table style="width: 100%">
+                    <thead>
+                        <th>action
+                        </th>
+                        <th>Id_Room
+                        </th>
+                        <th>Name
+                        </th>
+                        <th>Price
+                        </th>
+                        <th>Status
+                        </th>
+                        <th>Room Type
+                    </thead>
+
+                    <body>
+                        @foreach (Room item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <a id="btnDelete" class="glyphicon glyphicon-trash" href="/Admin/ManageRooms/Delete/@item.Id_Room"></a>&nbsp; &nbsp;
+                                    <a id="btnDelete" class="glyphicon glyphicon-pencil" href="/Admin/ManageRooms/Edit/@item.Id_Room"></a>
+                                </td>
+                                <td>@item.Id_Room</td>
+                                <td>@item.Name</td>
+                                <td>@item.Price</td>
+                                <td>@(item.Status == true? "Có khách":"Trống")</td>
+                                <td>@item.RoomType.Name</td>
+                            </tr>
+                        }
+                    </body>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

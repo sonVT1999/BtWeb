@@ -1,0 +1,202 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var Rooms = (List<HotelBooking.ViewModels.RoomViewModel>)ViewBag.Rooms;
+
+}
+
+@using HotelBooking.Models;
+@using HotelBooking.ViewModels;
+
+@model Phongview
+
+<title>@Model.Name</title>
+
+<link href="/Content/User/Plugins/Slider/flexslider/flexslider.css" rel="stylesheet" />
+<script src="/Content/User/Plugins/Slider/flexslider/jquery.flexslider-min.js"></script>
+
+<div id="outerafterheader">
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns" id="afterheader">
+                <h1 class="pagetitle">@Model.Name</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="outermain">
+    <div id="maincontainer">
+        <div class="container">
+            <div class="row">
+                <section id="maincontent">
+                    <section id="content" class="eight columns positionleft">
+                        <article>
+                            <div class="articlecontainer">
+                                <div id="roomslider" class="flexslider">
+                                    <ul class="slides">
+                                        <li>
+                                            <img src="/Content/User/files/images/Room/@Model.Note/@Model.Slide1"/></li>
+                                        <li>
+                                            <img src="/Content/User/files/images/Room/@Model.Note/@Model.Slide2"/></li>
+                                        <li>
+                                            <img src="/Content/User/files/images/Room/@Model.Note/@Model.Slide3"/></li>
+                                        <li>
+                                            <img src="/Content/User/files/images/Room/@Model.Note/@Model.Slide4"/></li>
+                                        <li>
+                                            <img src="/Content/User/files/images/Room/@Model.Note/@Model.Slide5"/></li>
+                                        <li>
+                                            <img src="/Content/User/files/images/Room/@Model.Note/@Model.Slide6"/></li>
+
+                                    </ul>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="entry-content" style="margin-top: 50px;">
+                                    <div style="text-align: justify;">
+                                        <div style="text-align: justify;">
+                                            <div style="text-align: justify;">
+                                                <table border="0" cellpadding="8" cellspacing="0" style="width: 100%">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="width: 50%">
+                                                                <ul>
+                                                                    <li>@Model.Note1</li>
+                                                                    <li>@Model.Note2</li>
+                                                                    <li>@Model.Note3</li>
+                                                                </ul>
+
+
+                                                            </td>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>@Model.Note4</li>
+                                                                    <li>@Model.Note5</li>
+                                                                    <li>@Model.Note6</li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </article>
+                        <section class="other-content" style="float: left">
+                            <div id="ts-portfolio">
+                                <div class="row">
+                                    <br />
+                                    <h2 class="h2-other">Other Rooms</h2>
+                                    @foreach (RoomViewModel item in Rooms)
+                                    {
+                                        <div class="item one_third columns item-other">
+                                            <div class="ts-pf-img">
+                                                <a href="">
+                                                    <img src="/Content/User/files/images/Room/@item.url/@item.imageLink" alt="ImageRooms">
+                                                </a>
+                                            </div>
+                                            <div class="ts-pf-text">
+                                                <h3 class="pftitle"><a href="~/home/previews/@item.MASP" title="@Model.Name">@item.nameType</a></h3>
+                                            </div>
+                                        </div>
+                                    }
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </section>
+                    </section>
+                    <section>
+                        <aside id="sidebar" class="four columns positionright">
+                            <div class="widget-area">
+                                <ul>
+                                    <li id="text-3" class="widget-container widget_text">
+                                        <div class="wrap-mode-check">
+                                            <h3 class="widget-title">Đặt phòng khách sạn
+                                            </h3>
+                                            <div id="wrap-check-one">
+                                                @*   @using (Html.BeginForm("xacnhan", "home"))
+                                                  {*@
+                                                <form method="post" action="~/home/xacnhan">
+                                                <div class="av-check-time">
+                                                    <span>Ngày đến:</span>
+                                                    <input name="ngay1" class="checkdate" id="Arrive" type="text" />
+                                                </div>
+                                                <div class="av-check-time">
+                                                    <span>Ngày đi:</span>
+                                                    <input name="ngay2" class="checkdate" id="Depart" type="text" />
+                                                </div>
+@*                                                <div id="av-buton" style="padding: 9px 20px; margin-top: 10px; width: 100%">
+                                                    <a class="button" href="/cart/AddItem/@Model.Id_Room?ReturnURL = @Request.RawUrl">Đặt phòng</a>
+                                                </div>*@
+                                                    <input type="hidden" name="id_room" value="@Model.Id_Room"/>
+                                                         <input type="submit" id="av-buton"
+                                                        value="Đặt phòng" class="btn btn-primary" 
+                                                        style="padding: 9px 20px; margin-top: 10px; width: 100%" />
+                                                    </form>
+                                            </div>
+                                        </div>
+
+                                        <style>
+                                            .av-check-time,
+                                            .av-persion,
+                                            .av-item-pertion {
+                                                margin-bottom: 8px;
+                                            }
+
+                                            .av-check-time span {
+                                                display: block;
+                                                width: 86px;
+                                                float: left;
+                                            }
+
+                                            #check-room input.checkdate,
+                                            #check-room select {
+                                                padding: 5px 10px;
+                                                padding: 5px 10px;
+                                                background: #ffffff;
+                                                color: #121212;
+                                                border: 1px solid #cacaca;
+                                            }
+                                        </style>
+
+                                        <script>
+                                            $(document).ready(function () {
+                                                var getdate = new Date();
+                                                var arrive = getdate;
+                                                var depart = new Date();
+                                                depart.setDate(getdate.getDate() + 1);
+                                                console.log(depart);
+                                                $("#Arrive").val($.datepicker.formatDate('mm/dd/yy', arrive));
+                                                $("#Depart").val($.datepicker.formatDate('mm/dd/yy', depart));
+                                                $("#Arrive").datepicker({
+                                                    minDate: arrive,
+                                                });
+                                                $("#Depart").datepicker({
+                                                    minDate: depart,
+                                                });
+                                            });
+                                        </script>
+                                    </li>
+                                </ul>
+                            </div>
+                        </aside>
+                    </section>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+        $('#roomslider').flexslider({
+            animation: "fade",
+            slideshow: true,
+            nextText: "",
+            prevText: "",
+        });
+    });
+</script>

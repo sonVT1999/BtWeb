@@ -1,0 +1,387 @@
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\HotelBooking.dll
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\HotelBooking.pdb
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\Antlr3.Runtime.dll
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\EntityFramework.dll
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\Microsoft.Web.Infrastructure.dll
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\Newtonsoft.Json.dll
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\System.Net.Http.Formatting.dll
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Http.dll
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Http.WebHost.dll
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Mvc.dll
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Optimization.dll
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Providers.dll
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Razor.dll
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.dll
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.dll
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.dll
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\WebGrease.dll
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\EntityFramework.xml
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\Newtonsoft.Json.xml
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\System.Net.Http.Formatting.xml
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Http.xml
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Http.WebHost.xml
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Mvc.xml
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Razor.xml
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.xml
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.xml
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.xml
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\obj\Debug\HotelBooking.csprojResolveAssemblyReference.cache
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\obj\Debug\HotelBooking.dll
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\obj\Debug\HotelBooking.pdb
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\HotelBooking.dll.config
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\HotelBooking.dll
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\HotelBooking.pdb
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\Antlr3.Runtime.dll
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\EntityFramework.dll
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\Microsoft.Web.Infrastructure.dll
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\Newtonsoft.Json.dll
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Net.Http.Formatting.dll
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Http.dll
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Http.WebHost.dll
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Mvc.dll
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Optimization.dll
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Providers.dll
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Razor.dll
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.dll
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.dll
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.dll
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\WebGrease.dll
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\EntityFramework.xml
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\Newtonsoft.Json.xml
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Net.Http.Formatting.xml
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Http.xml
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Http.WebHost.xml
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Mvc.xml
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Razor.xml
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.xml
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.xml
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.xml
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\obj\Debug\HotelBooking.csprojAssemblyReference.cache
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\obj\Debug\HotelBooking.csproj.CoreCompileInputs.cache
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\obj\Debug\HotelBooking.csproj.CopyComplete
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\obj\Debug\HotelBooking.dll
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\obj\Debug\HotelBooking.pdb
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\bin\HotelBooking.dll
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\bin\HotelBooking.pdb
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\bin\Antlr3.Runtime.dll
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\bin\EntityFramework.dll
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\bin\Newtonsoft.Json.dll
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Mvc.dll
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Optimization.dll
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Providers.dll
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Razor.dll
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.dll
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.dll
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.dll
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\bin\WebGrease.dll
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\bin\EntityFramework.xml
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\bin\Newtonsoft.Json.xml
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Mvc.xml
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Razor.xml
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.xml
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.xml
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.xml
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\obj\Debug\HotelBooking.dll
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\obj\Debug\HotelBooking.pdb
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\HotelBooking.dll.config
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\HotelBooking.dll
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\HotelBooking.pdb
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\Antlr3.Runtime.dll
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\EntityFramework.dll
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\Microsoft.Web.Infrastructure.dll
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\Newtonsoft.Json.dll
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\System.Net.Http.Formatting.dll
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Http.dll
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Http.WebHost.dll
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Mvc.dll
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Optimization.dll
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Providers.dll
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Razor.dll
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.dll
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.dll
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.dll
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\WebGrease.dll
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\EntityFramework.xml
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\Newtonsoft.Json.xml
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\System.Net.Http.Formatting.xml
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Http.xml
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Http.WebHost.xml
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Mvc.xml
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Razor.xml
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.xml
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.xml
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.xml
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\obj\Debug\HotelBooking.csprojAssemblyReference.cache
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\obj\Debug\HotelBooking.csproj.CoreCompileInputs.cache
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\obj\Debug\HotelBooking.csproj.CopyComplete
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\obj\Debug\HotelBooking.dll
+D:\git test\nam3\CN_Web\CN_Web\HotelBooking\HotelBooking\obj\Debug\HotelBooking.pdb
+C:\Users\FPTSHOP\Documents\Visual Studio 2019\CN_Web\HotelBooking\HotelBooking\obj\Debug\HotelBooking.csprojResolveAssemblyReference.cache
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\EntityFramework.SqlServer.dll
+D:\Ki2_Năm3\CN_Web\HotelBooking\HotelBooking\bin\EntityFramework.SqlServer.xml
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\EntityFramework.SqlServer.dll
+D:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\EntityFramework.SqlServer.xml
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\HotelBooking.dll.config
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\HotelBooking.dll
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\HotelBooking.pdb
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\Antlr3.Runtime.dll
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\EntityFramework.dll
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\EntityFramework.SqlServer.dll
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\Microsoft.Web.Infrastructure.dll
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\Newtonsoft.Json.dll
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Net.Http.Formatting.dll
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Http.dll
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Http.WebHost.dll
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Mvc.dll
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Optimization.dll
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Providers.dll
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Razor.dll
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.dll
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.dll
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.dll
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\WebGrease.dll
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\EntityFramework.xml
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\EntityFramework.SqlServer.xml
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\Newtonsoft.Json.xml
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Net.Http.Formatting.xml
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Http.xml
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Http.WebHost.xml
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Mvc.xml
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.Razor.xml
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.xml
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.xml
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.xml
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\obj\Debug\HotelBooking.csprojAssemblyReference.cache
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\obj\Debug\HotelBooking.csproj.CoreCompileInputs.cache
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\obj\Debug\HotelBooking.csproj.CopyComplete
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\obj\Debug\HotelBooking.dll
+E:\Hoc ky 6\web\btnhom\CN_Web\HotelBooking\HotelBooking\obj\Debug\HotelBooking.pdb
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\HotelBooking.dll
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\HotelBooking.pdb
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\Antlr3.Runtime.dll
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\EntityFramework.dll
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\EntityFramework.SqlServer.dll
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\Newtonsoft.Json.dll
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\System.Net.Http.Formatting.dll
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\System.Web.Http.dll
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\System.Web.Http.WebHost.dll
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\System.Web.Mvc.dll
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\System.Web.Optimization.dll
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\System.Web.Providers.dll
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\System.Web.Razor.dll
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.dll
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\System.Web.WebPages.dll
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.dll
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\WebGrease.dll
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\EntityFramework.xml
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\EntityFramework.SqlServer.xml
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\Newtonsoft.Json.xml
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\System.Net.Http.Formatting.xml
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\System.Web.Http.xml
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\System.Web.Http.WebHost.xml
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\System.Web.Mvc.xml
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\System.Web.Razor.xml
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\System.Web.WebPages.xml
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.xml
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.xml
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\obj\Debug\HotelBooking.dll
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\obj\Debug\HotelBooking.pdb
+C:\Users\datproqhna\Desktop\HotelBooking\HotelBooking\obj\Debug\HotelBooking.csprojResolveAssemblyReference.cache
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\HotelBooking.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\HotelBooking.pdb
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\Antlr3.Runtime.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\EntityFramework.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\EntityFramework.SqlServer.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\Newtonsoft.Json.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\System.Net.Http.Formatting.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\System.Web.Http.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\System.Web.Http.WebHost.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\System.Web.Mvc.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\System.Web.Optimization.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\System.Web.Providers.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\System.Web.Razor.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\System.Web.WebPages.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\WebGrease.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\EntityFramework.xml
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\EntityFramework.SqlServer.xml
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\Newtonsoft.Json.xml
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\System.Net.Http.Formatting.xml
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\System.Web.Http.xml
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\System.Web.Http.WebHost.xml
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\System.Web.Mvc.xml
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\System.Web.Razor.xml
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\System.Web.WebPages.xml
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.xml
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.xml
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\obj\Debug\HotelBooking.csprojResolveAssemblyReference.cache
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\obj\Debug\HotelBooking.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSan\HotelBooking\HotelBooking\obj\Debug\HotelBooking.pdb
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\HotelBooking.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\HotelBooking.pdb
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\Antlr3.Runtime.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\EntityFramework.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\EntityFramework.SqlServer.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\Newtonsoft.Json.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\System.Net.Http.Formatting.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\System.Web.Http.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\System.Web.Http.WebHost.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\System.Web.Mvc.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\System.Web.Optimization.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\System.Web.Providers.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\System.Web.Razor.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\System.Web.WebPages.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\WebGrease.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\EntityFramework.xml
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\EntityFramework.SqlServer.xml
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\Newtonsoft.Json.xml
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\System.Net.Http.Formatting.xml
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\System.Web.Http.xml
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\System.Web.Http.WebHost.xml
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\System.Web.Mvc.xml
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\System.Web.Razor.xml
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\System.Web.WebPages.xml
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.xml
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.xml
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\obj\Debug\HotelBooking.csprojResolveAssemblyReference.cache
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\obj\Debug\HotelBooking.dll
+C:\Users\datproqhna\Desktop\Nhom3QuanLyKhachSann\HotelBooking\HotelBooking\obj\Debug\HotelBooking.pdb
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\HotelBooking.dll.config
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\HotelBooking.dll
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\HotelBooking.pdb
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\Antlr3.Runtime.dll
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\EntityFramework.dll
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\EntityFramework.SqlServer.dll
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\Microsoft.Web.Infrastructure.dll
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\Newtonsoft.Json.dll
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Net.Http.Formatting.dll
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.Http.dll
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.Http.WebHost.dll
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.Mvc.dll
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.Optimization.dll
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.Providers.dll
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.Razor.dll
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.dll
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.WebPages.dll
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.dll
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\WebGrease.dll
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\EntityFramework.xml
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\EntityFramework.SqlServer.xml
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\Newtonsoft.Json.xml
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Net.Http.Formatting.xml
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.Http.xml
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.Http.WebHost.xml
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.Mvc.xml
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.Razor.xml
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.WebPages.xml
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.xml
+F:\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.xml
+F:\ThucTapNhom\HotelBooking\HotelBooking\obj\Debug\HotelBooking.csproj.CoreCompileInputs.cache
+F:\ThucTapNhom\HotelBooking\HotelBooking\obj\Debug\HotelBooking.csproj.CopyComplete
+F:\ThucTapNhom\HotelBooking\HotelBooking\obj\Debug\HotelBooking.dll
+F:\ThucTapNhom\HotelBooking\HotelBooking\obj\Debug\HotelBooking.pdb
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\HotelBooking.dll
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\HotelBooking.pdb
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\Antlr3.Runtime.dll
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\EntityFramework.dll
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\EntityFramework.SqlServer.dll
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\Microsoft.Web.Infrastructure.dll
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\Newtonsoft.Json.dll
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Net.Http.Formatting.dll
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.Http.dll
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.Http.WebHost.dll
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.Mvc.dll
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.Optimization.dll
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.Providers.dll
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.Razor.dll
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.dll
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.WebPages.dll
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.dll
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\WebGrease.dll
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\EntityFramework.xml
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\EntityFramework.SqlServer.xml
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\Newtonsoft.Json.xml
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Net.Http.Formatting.xml
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.Http.xml
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.Http.WebHost.xml
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.Mvc.xml
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.Razor.xml
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.WebPages.xml
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.xml
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.xml
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\obj\Debug\HotelBooking.csprojResolveAssemblyReference.cache
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\obj\Debug\HotelBooking.dll
+D:\Ki2_Năm3\TT_Nhom\ThucTapNhom\HotelBooking\HotelBooking\obj\Debug\HotelBooking.pdb
+D:\SendSon\HotelBooking\HotelBooking\bin\HotelBooking.dll.config
+D:\SendSon\HotelBooking\HotelBooking\bin\HotelBooking.dll
+D:\SendSon\HotelBooking\HotelBooking\bin\HotelBooking.pdb
+D:\SendSon\HotelBooking\HotelBooking\bin\Antlr3.Runtime.dll
+D:\SendSon\HotelBooking\HotelBooking\bin\EntityFramework.dll
+D:\SendSon\HotelBooking\HotelBooking\bin\EntityFramework.SqlServer.dll
+D:\SendSon\HotelBooking\HotelBooking\bin\Microsoft.Web.Infrastructure.dll
+D:\SendSon\HotelBooking\HotelBooking\bin\Newtonsoft.Json.dll
+D:\SendSon\HotelBooking\HotelBooking\bin\System.Net.Http.Formatting.dll
+D:\SendSon\HotelBooking\HotelBooking\bin\System.Web.Http.dll
+D:\SendSon\HotelBooking\HotelBooking\bin\System.Web.Http.WebHost.dll
+D:\SendSon\HotelBooking\HotelBooking\bin\System.Web.Mvc.dll
+D:\SendSon\HotelBooking\HotelBooking\bin\System.Web.Optimization.dll
+D:\SendSon\HotelBooking\HotelBooking\bin\System.Web.Providers.dll
+D:\SendSon\HotelBooking\HotelBooking\bin\System.Web.Razor.dll
+D:\SendSon\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.dll
+D:\SendSon\HotelBooking\HotelBooking\bin\System.Web.WebPages.dll
+D:\SendSon\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.dll
+D:\SendSon\HotelBooking\HotelBooking\bin\WebGrease.dll
+D:\SendSon\HotelBooking\HotelBooking\bin\EntityFramework.xml
+D:\SendSon\HotelBooking\HotelBooking\bin\EntityFramework.SqlServer.xml
+D:\SendSon\HotelBooking\HotelBooking\bin\Newtonsoft.Json.xml
+D:\SendSon\HotelBooking\HotelBooking\bin\System.Net.Http.Formatting.xml
+D:\SendSon\HotelBooking\HotelBooking\bin\System.Web.Http.xml
+D:\SendSon\HotelBooking\HotelBooking\bin\System.Web.Http.WebHost.xml
+D:\SendSon\HotelBooking\HotelBooking\bin\System.Web.Mvc.xml
+D:\SendSon\HotelBooking\HotelBooking\bin\System.Web.Razor.xml
+D:\SendSon\HotelBooking\HotelBooking\bin\System.Web.WebPages.xml
+D:\SendSon\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.xml
+D:\SendSon\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.xml
+D:\SendSon\HotelBooking\HotelBooking\obj\Debug\HotelBooking.csprojAssemblyReference.cache
+D:\SendSon\HotelBooking\HotelBooking\obj\Debug\HotelBooking.csproj.CopyComplete
+D:\SendSon\HotelBooking\HotelBooking\obj\Debug\HotelBooking.dll
+D:\SendSon\HotelBooking\HotelBooking\obj\Debug\HotelBooking.pdb
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\HotelBooking.dll
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\HotelBooking.pdb
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\Antlr3.Runtime.dll
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\EntityFramework.dll
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\EntityFramework.SqlServer.dll
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\Newtonsoft.Json.dll
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\System.Net.Http.Formatting.dll
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\System.Web.Http.dll
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\System.Web.Http.WebHost.dll
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\System.Web.Mvc.dll
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\System.Web.Optimization.dll
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\System.Web.Providers.dll
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\System.Web.Razor.dll
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.dll
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\System.Web.WebPages.dll
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.dll
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\WebGrease.dll
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\EntityFramework.xml
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\EntityFramework.SqlServer.xml
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\Newtonsoft.Json.xml
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\System.Net.Http.Formatting.xml
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\System.Web.Http.xml
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\System.Web.Http.WebHost.xml
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\System.Web.Mvc.xml
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\System.Web.Razor.xml
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\System.Web.WebPages.xml
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\System.Web.WebPages.Deployment.xml
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\bin\System.Web.WebPages.Razor.xml
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\obj\Debug\HotelBooking.csprojResolveAssemblyReference.cache
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\obj\Debug\HotelBooking.dll
+C:\Users\datproqhna\Desktop\SendSonmyyy\SendSon\HotelBooking\HotelBooking\obj\Debug\HotelBooking.pdb

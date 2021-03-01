@@ -1,0 +1,66 @@
+﻿@{
+    ViewBag.Title = "Thống kê doanh thu";
+    Layout = "~/Areas/Admin/Views/Shared/_layoutAdmin.cshtml";
+}
+
+@model HotelBooking.Areas.Admin.Controllers.homeAdminController.ViewCountModel
+
+@if(@ViewBag.tungay == null && @ViewBag.denngay == null){
+    ViewBag.tungay = "";
+    ViewBag.denngay = "";
+}
+
+@{
+    string tmp_tungay = Convert.ToString(@ViewBag.tungay);
+    string[] arrListStr_tungay = tmp_tungay.Split(' ');
+    string tmp_denngay = Convert.ToString(@ViewBag.denngay);
+    string[] arrListStr_denngay = tmp_denngay.Split(' ');
+}
+
+<div class="right_col" role="main">
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>Thống Kê Doanh Thu</h3>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="x_panel">
+            <form method="post" action="BillStatistics">
+                <div class="col-md-3 col-sm-3 ">
+                    <input type="text" name="fromDate" class="form-control" placeholder="Từ ngày" />
+                </div>
+                <div class="col-md-3 col-sm-3 ">
+                    <input type="text" name="toDate" class="form-control" placeholder="Đến ngày" />
+                </div>
+                <div class="col-md-3 col-sm-3 ">
+                    <label class="btn btn-primary" data-toggle-class="btn-primary"
+                        data-toggle-passive-class="btn-default">
+                        <input type="submit" name="gender" value="male" class="join-btn" />
+                        &nbsp; Thống Kê &nbsp;
+                    </label>
+                </div>
+            </form>
+            <br>
+            <br>
+            <table style="width: 100%">
+                <thead>
+                    <th>Từ ngày</th>
+                    <th>Đến ngày</th>
+                    <th>Tổng doanh thu</th>
+                </thead>
+
+                <body>
+                    <tr>
+                        @if (@Model != null)
+                        {
+                            <td>@arrListStr_tungay[0]</td>
+                            <td>@arrListStr_denngay[0]</td>
+                            <td>@Model.total VNĐ</td>
+                        }
+                    </tr>
+                </body>
+            </table>
+        </div>
+    </div>
+</div>
